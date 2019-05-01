@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> EnteroChoice</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body {
+    background-image:url("https://cdn.wallpapersafari.com/97/58/SdRCAL.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+#greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    color:rgb(95, 203, 248);
+}
+
+#descrip-of-web {
+    font-family: 'Abel', sans-serif;
+    font-size:30px;
+}
+
+h2 {
+ font-family: 'Abel', sans-serif;
+ font-size:29px;  
+ color:rgb(90, 99, 112);
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif; 
+    color:rgb(95, 203, 248);
+}
+p {
+       font-family:'Montserrat', sans-serif; 
+       font-size:25px;
+}
+#Main-body {
+ display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  padding-top:0px;
+}
+</style>
+<div id= "Main-body">
+    <img src="EnteroChoice Logo.png" alt="Logo" width="400px" height="400px">
+<label id="greeting"></label>
+
+<script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening';
+
+    document.getElementById('greeting').innerHTML =
+        '<b>' + greet + '</b> and welcome to EnteroChoice';
+</script> 
+
+<p id="descrip-of-web"> EnteroChoice will provide the best service as quickly as we can. EnteroChoice is an outpatient clinic; therefore, you never have to stay overnight and pay those outrageous fees!</p>
+ <h1> <em>Trust your gut so we can fix it! </em></h3>
+<h2> What we are:</h2>
+<p> An outpatient department or outpatient clinic is the part of a hospital designed for the treatment of outpatients, people with health problems who visit the hospital for diagnosis or treatment, but do not at this time require a bed or to be admitted for overnight care. Modern outpatient departments offer a wide range of treatment services, diagnostic tests and minor surgical procedures.</p>
+<h2> What we specialize in:</h2>
+<p>Gastroenterology: The medical specialty devoted to the study, diagnosis and treatment of disorders of the digestive system. These disorders may affect the esophagus (swallowing tube), stomach, small intestine, large intestine (colon), rectum, liver, gallbladder, or pancreas.</p>
+</div>
+    </body>
+</html>

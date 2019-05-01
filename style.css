@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+#greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    color:rgb(95, 203, 248);
+}
+
+#descrip-of-web {
+    font-family: 'Abel', sans-serif;
+    font-size:30px;
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif; 
+    color:rgb(95, 203, 248);
+}
+p {
+       font-family:'Montserrat', sans-serif; 
+       font-size:25px;
+}
+#Main-body {
+ display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  padding-top:0px;
+}
