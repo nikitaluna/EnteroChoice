@@ -3,15 +3,20 @@
     <head>
         <title> EnteroChoice</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <select onChange="window.location.replace(this.options[this.selectedIndex].value)"> 
+    <option value="" selected="selected">Menu</option> 
+    <option value="index.html">Home</option> 
+    <option value="services.html">Services</option>
+  </select> 
     </head>
     <body>
         
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
 body {
-    background-image:url("https://cdn.wallpapersafari.com/97/58/SdRCAL.jpg");
+    background-image:url("https://img.freepik.com/free-vector/blue-abstract-acrylic-brush-stroke-textured-background_53876-86373.jpg?size=626&ext=jpg");
   background-repeat: no-repeat; 
   background-size: cover;
   background-attachment: fixed;
@@ -40,7 +45,7 @@ h1 {
     color:rgb(95, 203, 248);
 }
 p {
-       font-family:'Montserrat', sans-serif; 
+    font-family: 'Abel', sans-serif;
        font-size:25px;
 }
 #Main-body {
@@ -49,8 +54,23 @@ p {
   justify-content:center;
   align-items: center;
   margin:auto;
-  padding-top:0px;
+  padding:40px;
+ 
 }
+
+ select {
+  font-family: 'Montserrat', sans-serif;
+  font-size:40px;
+  color:rgb(90, 99, 112);
+  background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/36/6856299993ea2f8.jpg");
+  position: relative;
+  top: 40px;
+  border-radius:35px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  
+  }
 </style>
 <div id= "Main-body">
     <img src="EnteroChoice Logo.png" alt="Logo" width="400px" height="400px">
@@ -70,7 +90,7 @@ p {
         greet = 'Good Evening';
 
     document.getElementById('greeting').innerHTML =
-        '<b>' + greet + '</b> and welcome to EnteroChoice';
+        '<b>' + greet + '</b> and Welcome to EnteroChoice';
 </script> 
 
 <p id="descrip-of-web"> EnteroChoice will provide the best service as quickly as we can. EnteroChoice is an outpatient clinic; therefore, you never have to stay overnight and pay those outrageous fees!</p>
