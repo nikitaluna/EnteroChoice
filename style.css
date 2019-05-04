@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
+body {
+    background-image:url("https://img.freepik.com/free-vector/blue-abstract-acrylic-brush-stroke-textured-background_53876-86373.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
 
 #greeting {
     font-family: 'Montserrat', sans-serif;
@@ -13,12 +20,18 @@
     font-size:30px;
 }
 
-h3 {
+h2 {
+ font-family: 'Abel', sans-serif;
+ font-size:29px;  
+ color:rgb(90, 99, 112);
+}
+
+h1 {
     font-family:'Montserrat', sans-serif; 
     color:rgb(95, 203, 248);
 }
 p {
-       font-family:'Montserrat', sans-serif; 
+    font-family: 'Abel', sans-serif;
        font-size:25px;
 }
 #Main-body {
@@ -27,5 +40,58 @@ p {
   justify-content:center;
   align-items: center;
   margin:auto;
-  padding-top:0px;
+  padding:40px;
+ 
 }
+
+select {
+  font-family: 'Montserrat', sans-serif;
+  font-size:40px;
+  color:rgb(90, 99, 112);
+  background-image:url("https://img.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg?size=626&ext=jpg");
+  position: relative;
+  top: 0px;
+  border-radius:35px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+ 
+
+
+
+
+#descrip-of-web {
+    font-family: 'Abel', sans-serif;
+    font-size:30px;
+}
+
+dt {
+ font-family: 'Abel', sans-serif;
+ font-size:40px;  
+    color:rgb(95, 203, 248);
+}
+
+dd  {
+    font-family:'Montserrat', sans-serif; 
+    font-size:20px;
+}
+p  {
+    font-family: 'Abel', sans-serif;
+       font-size:25px;
+}
+
+ul {
+font-family: 'Abel', sans-serif;
+       font-size:25px;
+}
+#Main-body {
+ display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  padding:40px;
+ 
+}
+
