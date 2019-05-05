@@ -71,6 +71,11 @@ dt {
  font-size:40px;  
     color:rgb(95, 203, 248);
 }
+#book-heading {
+font-family: 'Abel', sans-serif;
+font-size:40px;  
+color:rgb(95, 203, 248); 
+}
 
 dd  {
     font-family:'Montserrat', sans-serif; 
