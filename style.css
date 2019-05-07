@@ -43,7 +43,14 @@ p {
   padding:40px;
  
 }
-
+img {
+  display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  padding:40px;   
+}
 select {
   font-family: 'Montserrat', sans-serif;
   font-size:40px;
