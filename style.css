@@ -100,3 +100,30 @@ font-family: 'Abel', sans-serif;
  
 }
 
+footer {
+border: 10px;
+border-color:rgb(95, 203, 248);
+border-style: groove;
+}
+
+.footer {
+   font-family: 'Abel', sans-serif;
+font-size:20px;  
+display:flex;
+  flex-direction:row; 
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  padding:10px;  
+}
+
+ #moto {
+    font-family:'Montserrat', sans-serif; 
+    color:rgb(95, 203, 248);
+ }
+ 
+#yay {
+    font-family:'Montserrat', sans-serif; 
+ font-size:29px;  
+ color:rgb(90, 99, 112);  
+}
