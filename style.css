@@ -134,3 +134,17 @@ display:flex;
  font-size:29px;  
  color:rgb(90, 99, 112);  
 }
+a:visited {
+    color:rgb(97, 1, 186); 
+
+
+}
+
+a:link {
+  color: rgb(104, 61, 244);
+   list-style-type:none;
+}
+/* mouse over link */
+a:hover {
+    color:rgb(21, 255, 0);
+}
